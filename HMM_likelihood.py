@@ -11,7 +11,7 @@ p_string.append('0.577	0.22	0.203'.split())
 
 p1=[]
 for k in range(len(states)):
-    p1.append(0.5 * float(p_string[k][string.index(observe[0])]))
+    p1.append(1/len(states) * float(p_string[k][string.index(observe[0])]))
     
 for i in range(1, len(observe)):
     p2 = []
