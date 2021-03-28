@@ -80,7 +80,7 @@ def transition(pi_star_star):
             c+=1
     return t
     
-# node responsibility matrx
+# node responsibility matrix
 def pi_star(f, b, p):
     ps=[]
     for i in range(len(states)):
